@@ -5,14 +5,14 @@
         <title>Sudoku</title>
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="manifest.json">
         <script src="sw.js"></script>
+        <link rel="manifest" href="manifest.json">
         
 
         <script>
             if ('serviceWorker' in navigator) {
               window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
                   console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 }, function(err) {
                   console.log('ServiceWorker registration failed: ', err);
@@ -35,6 +35,6 @@
         </div>
 
         <script src="js/main.js"></script>
-        
+
     </body>
 </html>
