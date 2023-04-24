@@ -1,6 +1,6 @@
 {
-  "name": "Welcome to ITST 304 - Mobile Computing",
-  "short_name": "LSPU CCS",
+  "name": "Sudoku",
+  "short_name": "Enjoy playing",
   "icons": [{
     "src": "images/logo-ccs-60.png",
       "sizes": "60x60",
@@ -29,4 +29,6 @@
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
+  
 }
+
